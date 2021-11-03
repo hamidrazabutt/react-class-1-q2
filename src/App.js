@@ -1,9 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+import * as bar from './MyLibrary';
 
 
 
 function App() {
+  let str='Hello World'
+
+  let obj={
+    name: 'abc',
+    id: 45456565
+  }
+  return (
+    <div className="" >
+      {Object.name}
+      {Object.id}
+    </div>
+  )
+
+  console.log('Func Calling', bar.AppName)
   return (
     <div className="App">
       <header className="App-header">
@@ -25,7 +40,7 @@ function App() {
 
 } 
 
+
+
+
 export default App;
-
-
-
